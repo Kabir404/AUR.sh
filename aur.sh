@@ -60,7 +60,7 @@ while getopts ":h:i:r" option; do
       r) # remove program
          Remove;;
       \?) # Invalid option
-         echo "Error: Invalid option";;
+         echo "Error: Invalid option. run the command again with the -i argument";;
    esac
 done
 
